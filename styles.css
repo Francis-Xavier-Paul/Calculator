@@ -15,4 +15,12 @@ body {
     height: 70%;
     background-color: black;
     width: 30%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white
+}
+
+.display {
+    grid-column: 1/5;
+    background-color: cyan;
 }
