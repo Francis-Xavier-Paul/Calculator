@@ -2,6 +2,7 @@
 
 body {
     margin: 0
+    
 }
 
 .main-page {
@@ -14,13 +15,44 @@ body {
 .calculator {
     height: 70%;
     background-color: black;
-    width: 30%;
+    width: 25%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    color: white
+    color: white;
+    font-size: 2em;
+    text-align-last: center;
 }
 
 .display {
     grid-column: 1/5;
-    background-color: cyan;
+    background-color:#CAD8DE;;
+    color: black;
+    height: auto;
+    text-align-last: start;
+}
+
+.operation {
+    background-color: #E89005;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.clear {
+    background-color: #FF6663;
+    color: black;
+}
+
+.equal {
+    background-color: #CAD8DE;
+    color: black;
+}
+
+.no {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
