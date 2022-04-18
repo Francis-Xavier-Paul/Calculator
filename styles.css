@@ -29,6 +29,7 @@ body {
     color: black;
     height: auto;
     text-align-last: start;
+    word-break: break-word;
 }
 
 .operation {
